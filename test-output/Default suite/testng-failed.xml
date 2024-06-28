@@ -5,9 +5,9 @@
     <classes>
       <class name="Runners.TestNgTestRunner">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
       </class> <!-- Runners.TestNgTestRunner -->
     </classes>

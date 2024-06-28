@@ -6,7 +6,6 @@
  <test name="My Test">
     <classes>
       <class name="Runners.TestNgTestRunner">
-    
       </class>
     </classes>
   </test>
