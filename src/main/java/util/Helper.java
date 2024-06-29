@@ -1,7 +1,7 @@
 package util;
 
 public class Helper {
-	public final static String BASE_URL = "https://www.redbus.in/";
+	public final static String BASE_URL = "https://www.naukri.com/nlogin/login";
     public final static int IMPLICIT_WAIT_TIMEOUT = 10;
     public static final String BROWSER_CHROME = "chrome";
     public static final String BROWSER_EDGE = "edge";

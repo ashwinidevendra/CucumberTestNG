@@ -19,15 +19,18 @@
 @tag
 Feature: Check Train Ticket
 
-  @SmokeTest
-  Scenario: Check Train Ticket available
-    Given open website
+ 
    
   @RegressionTest 
-  Scenario: Check Train Ticket available
+  Scenario: Login To Noukri.com
     Given open website
+    And Enter "<username>" and "<password>"
+    When Hit Login
+    Then Check Login "<status>"
     
-    #Examples: 
-      #| name  | value | status  |
-      #| name1 |     5 | success |
-      #| name2 |     7 | Fail    |
+    
+    
+    Examples: 
+      | username  | password | status  |
+      | ashvelapure@gmail.com |     9422117187 | success |
+      | name2 |     7 | Fail    |
